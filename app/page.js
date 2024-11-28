@@ -1,11 +1,11 @@
 'use client';
-import Image from 'next/image';
 
 import { Logo } from './components/Logo';
 import { NextLogo } from './components/NextLogo';
 import { HEADER_DETAILS } from '../config/static-data.js';
 import { List } from './components/List';
 import { ContactForm } from './components/ContactForm';
+import { EmojiList } from './components/EmojiList';
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
 
         <List />
         <ContactForm />
+        <EmojiList />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
     </div>

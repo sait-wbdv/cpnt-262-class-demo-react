@@ -1,7 +1,7 @@
 export const HEADER_DETAILS = {
   logoText: 'TravLog',
   navMenu: [
-    { navText: 'home', navUrl: '/home' },
+    { navText: 'Home', navUrl: '/' },
     { navText: 'Discover', navUrl: '/discover' },
     { navText: 'Special Deals', navUrl: '/special-deals' },
     { navText: 'Contact', navUrl: '/contact' },
@@ -21,3 +21,6 @@ export const HERO_DETAILS = {
 };
 
 const PARTNERS = ['tripadvisor'];
+
+export const apiKey = 'MFHh5JqdgRVmnYxuWFFz7pxUdpvPcsJY';
+export const endpoint = `https://api.giphy.com/v2/emoji?api_key=${apiKey}&limit=100&offset=0`;
